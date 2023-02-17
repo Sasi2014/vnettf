@@ -1,6 +1,6 @@
 
 provider "azurerm" {
-  features {}
+  
   subscription_id ="210d9bc8-6487-442a-a675-c0fb77f397bd"
   client_id       ="b19641e7-49f8-480e-9029-3a2502c0cbc4"
   client_secret   ="GlS8Q~KC5vJRz2j3AT0_5lhmJe1kyWSl5h1CGcem"      #0jd8Q~2GhD7oGsJcb4sy1iogQQb4Y2yZ7TlUvduF
