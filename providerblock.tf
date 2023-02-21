@@ -5,6 +5,14 @@ provider "azurerm" {
   tenant_id = "b766d8cb-0655-49a5-8b7b-108086320cdb" 
     features {}
 }
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=3.0.0"
+    }
+  }
+}
 
 terraform {
   backend "azurerm" {
